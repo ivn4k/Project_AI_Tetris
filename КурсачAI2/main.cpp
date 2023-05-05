@@ -1,6 +1,7 @@
 ﻿#include <SFML/Graphics.hpp>
 #include <conio.h>
 #include <time.h>
+#include <iostream>
 
 using namespace sf;
 
@@ -82,6 +83,7 @@ int main()
 
         window.display();
         //Sleep(300);
+        std::cout << "aboba";
     }
 
     return 0;
