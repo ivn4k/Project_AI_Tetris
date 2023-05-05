@@ -77,7 +77,7 @@ int main()
             window.draw(line, 2, Lines);
         }
 
-        field[0][i] = 1;
+        field[i][0] = 1;
         i++;
 
         window.display();
